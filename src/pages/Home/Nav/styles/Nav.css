@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@400;500&display=swap');
+
+.nav {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: #fff;
+    width: 90%;
+    height: 6vh;
+    align-items: center;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: rgb(125, 120, 219);
+    list-style-type: none;
+}
+
+.nav img {
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 50%;
+}
+
+.nav .nav__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav .nav__list li {
+    width: 6.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    transition: 0.5s;
+}
+
+.nav .nav__list li:hover {
+    border-radius: 0.6rem;
+}
+
+.nav .user_icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav .user_icon .fa-user {
+    font-size: 1rem;
+    margin-left: 1rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0.3rem;
+}
+
+
+nav ul li .link {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+nav ul li .link:after {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '.';
+    color: transparent;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background: transparent;
+}
+
+nav.circle ul li .link:hover:after {
+    -webkit-animation: circle 1.5s ease-in forwards;
+}
+
+nav i{
+    font-size: 2.0rem;
+}

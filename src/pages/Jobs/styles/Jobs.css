@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Archivo:ital,wght@0,100..900;1,100..900&family=Kanit&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500&display=swap');
+.centre-jobs-title{
+    margin:5%;
+    margin-top: 4%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+.centre-jobs-description{
+    margin-top: 1%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.role-text-container {
+    margin-top: 3%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  
+  }
+.job-title-left{
+    margin-right: 0.5rem;
+    
+}
+.job-title-right{
+    color:rgb(106, 99, 244);
+    margin-right: 0.5rem;
+    font-size: 2rem;
+}
+.pscroll-container {
+  overflow-anchor: auto;
+  white-space: nowrap;
+  margin-bottom: 3rem; 
+  width:90%;
+  margin-left: 5rem;
+}
+
+.pjobs-container {
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 5rem;
+  margin-left:0;
+}
+.pscroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 3rem;
+  width: 90%;
+  margin-left: 5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.jobs-wrapper {
+  display: flex;
+}
+.scroll-right-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

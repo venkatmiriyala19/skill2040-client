@@ -1,0 +1,28 @@
+
+.top-mentors-container {
+  margin: 5rem 5rem 1.6rem 5rem;
+}
+.mentor-title-left{
+  margin-right: 0.5rem;
+  
+}
+.mentor-title-right{
+  color:rgb(106, 99, 244);
+  margin-right: 0.5rem;
+  font-size: 2rem;
+}
+
+ .ppscroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 3rem;
+  width: 90%;
+  margin-left: 5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.mentor-cards-wrapper{
+  cursor: pointer;
+  display: flex;
+}

@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.pjob-card {
+  box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: white;
+padding: 20px;
+/* margin-left: 35%; */
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+width: 100%;
+max-width: 300px;
+margin: 0 2rem;
+}
+.pjob-card:hover .pjob-arrow-wrapper {
+background-color: rgb(106, 99, 244);
+border-radius: 50%;
+color: white;
+}
+.pjob-card:hover {
+border: 1px solid black;
+}
+.pjob-card:hover h3.pjob-title {
+color: rgb(106, 99, 244);
+}
+.pjob-header{
+  margin:0;
+  padding: 0;
+  display: block;
+}
+.pjob-title {
+font-size: 1.5rem;
+font-weight: bold;
+width: 100%;
+}
+
+.pjob-arrow-wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:1rem;   
+border-radius: 50%;
+width: 40px;
+height: 40px;
+}
+
+.pjob-description {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 100%;
+}
+
+.pjob-openings {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+width: 100%;
+}
+.pjob-time{
+  display: flex;
+}
+.pjob-openings p {
+font-size: 1rem;
+margin: 0;
+width: 100%;
+}
+
+.pscroll-container {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 3rem;
+  width: 90%;
+  margin-left: 5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.jobs-wrapper {
+  display: flex;
+}
+
+.scroll-right-button {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

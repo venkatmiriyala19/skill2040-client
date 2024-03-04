@@ -1,0 +1,41 @@
+.Coding-card {
+  padding: 1.5rem 2rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 5rem;
+  width: auto;
+  border-radius: 26px;
+  color: #162734;
+  border: 2px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.hearderTitle-button{
+    display:  flex;
+    justify-content: space-between;
+    margin-left:1rem
+}
+.button-startnow {
+  background: #5E5DF0;
+  border-radius: 0.9rem;
+  /* box-shadow: #5E5DF0 0 10px 15px -5px; */
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 1rem;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 5px 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+.Coding-card p{
+    padding-left: 15px;
+}

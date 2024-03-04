@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Archivo:ital,wght@0,100..900;1,100..900&family=Kanit&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500&display=swap');
+
+.heading {
+    position: absolute;
+    top: 25vh;
+    font-size: 8rem;
+    color: rgb(125, 120, 219);
+    font-weight: bold;
+    font-weight: 1000;
+    word-wrap: break-word;
+    margin-left: 15vh;
+}
+
+.heading .year {
+    font-size: 0.90em;
+}
+
+.heading .tagline {
+    margin-top: -5vh;
+    font-size: 2.5rem;
+    display: block;
+    color: rgb(125, 120, 219);
+}
+
+@media (max-width:1300px){
+    .heading .year {
+        font-size: 0.90em;
+    }
+    .heading .tagline{
+        font-size: 2rem;
+    }
+    .heading{
+        font-size: 6rem;
+    }
+}
+
+
+
+/* CSS */
+.button-for-premium {
+  background-color: rgb(83, 76, 212);
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-for-premium:hover {
+  background-color: #374151;
+}
+
+.button-for-premium:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-for-premium {
+    padding: .75rem 1.5rem;
+  }
+}
+  .premium-button{
+    float:right;
+    margin-right: 6%;
+    margin-top: -2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.shimmer {
+    
+    font-size: 2em;
+    margin: 0 auto;
+    padding: 0 140px 0 0;
+    display: inline;
+    margin-bottom: 0;
+    margin-right: -8rem;
+}
+
+.shimmer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+    background: -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: -moz-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff));
+    -webkit-background-size: 125px 100%;
+    -moz-background-size: 125px 100%;
+    background-size: 125px 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-animation-name: shimmer;
+    -moz-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: #222;
+}
+.shimmer:hover{
+    cursor: pointer;
+}
+@-moz-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@-o-keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+
+@keyframes shimmer {
+    0% {
+            background-position: top left;
+    }
+    100% {
+            background-position: top right;
+    }
+}
+.premium-popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    
+    
+
+}
+
+.premium-popup-content {
+    position: relative; /* Make the position relative */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    width:30vw;
+    height: 60vh;
+
+}
+
+.premium-popup-close {
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-size: 2.5rem;
+}
+
+.premium-popup-close:hover {
+    color: red; /* Add hover effect if needed */
+}
+.premium-popup-heading{
+    margin-top: 1rem;
+    font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+.premium-popup-list{
+    list-style-type:none;
+    padding-top:1rem ;
+}
+.premium-buy-container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+  }
+  
+  .premium-buy-center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top:3%;
+    
+  }
+  
+  .premium-buy-btn {
+    margin-right: 10%;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: black;
+    border: 1px solid #5d5df0b5;
+    outline: none;
+    transition: 1s ease-in-out;
+    
+  }
+  
+  .buy-premium-button-svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+    
+  }
+  
+  .premium-buy-btn:hover {
+    transition: 1s ease-in-out;
+    background: #5E5DF0;
+  }
+  
+  .premium-buy-btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .premium-buy-btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

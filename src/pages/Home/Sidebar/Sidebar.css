@@ -1,0 +1,55 @@
+.sidebar {
+    float: right;
+    max-width: 100%;
+}
+
+.sidebox {
+    position: absolute;
+    bottom: 25%;
+    align-items: center;
+    right: 0;
+    width: 95px;
+    height: auto;
+    background-color: rgb(125, 120, 219);
+    color: white;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 1.5rem;
+    padding: 1.5rem  1rem;
+}
+
+.submissions {
+    font-size: 15px;
+}
+@media (max-width:1300px){
+    .sidebox {
+        padding-top: 30px;
+        width: 70px;
+        height: auto;
+        font-size: large;
+    }
+
+    .submissions {
+        font-size: small;
+    }
+}
+@media (max-width:500px) {
+    .sidebox {
+        padding-top: 30px;
+        width: 70px;
+        height: 250px;
+        font-size: small;
+    }
+
+    .submissions {
+        font-size: small;
+    }
+}
+
+hr {
+    margin: 1.5rem 0;
+}

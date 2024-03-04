@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Archivo:ital,wght@0,100..900;1,100..900&family=Kanit&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:wght@400;500&display=swap');
+.mentor-booking-container {
+    display: grid;
+    /* grid-template-columns: repeat(4, 27vw); */
+    /* row-gap: 0.5rem; */
+    grid-auto-flow: row;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    min-width:27%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
+.mentor-detailed-view{
+    padding:3%;
+    border-top: 1px solid black;
+    margin:5%;
+    margin-top: 2%;
+    min-width: 52%;
+    box-shadow:rgba(149, 157, 165, 0.4) 0px 8px 24px; 
+    padding-left:5%;
+}
+.mentor-profile-view{
+  display: flex;
+}
+.profile-of-mentor{
+    width: 7rem;
+    height:7rem;
+    clip-path: circle();
+    background-color: white;
+    margin:1%;
+  }
+.mentor-detailed-name{
+  margin-left: 8%;
+}
+.mentor-detailed-name h1{
+  padding-bottom: 1.5% ;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mentor-detailed-name h2,h3{
+  padding-bottom: 3% ;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mentor-exp-field{
+  display: flex;
+  align-items: center;
+  margin:5%;
+  margin-top: 6%;
+  margin-left: 3%;  
+}
+.mentor-exp-field h4{
+  padding-right: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 0;
+  margin-left: -0.5rem;
+}
+.mentor-contact-button{
+  cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(106, 99, 244);
+    padding: 0.5em 1.25em;
+    border-radius: 0.25rem;
+    margin-left: 25%;
+    width:7vw;
+    height: 3vh;
+    font-size: small;
+    text-align: center;
+}
+.mentor-contact-button:hover,
+.mentor-contact-button:focus {
+    background-color: black;
+}
+.mentor-about-section{
+  margin-bottom: 3%;
+}
+.mentor-about-section h1{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.mentor-about-section h2{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 1rem;
+}
+.mentor-about-section li{
+  margin-left: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 1rem;
+}

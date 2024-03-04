@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rjob-card {
+  
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  min-height: 5rem;
+  width: 15rem;
+  margin-left: 5%;
+  border-radius: 26px;
+  color: #162734;
+  border: 2px solid #ccc;
+  transition: 0.5s;
+}
+
+.rjob-card:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid rgb(76, 74, 74);
+}
+
+.rjob-card:hover h3.rjob-title {
+  color: rgb(106, 99, 244);
+}
+
+.jobs-container {
+  display: grid;
+  /* grid-template-columns: repeat(4, 27vw); */
+  row-gap: 1rem;
+  column-gap: 4rem;
+  grid-auto-flow: column;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  background-color: white;
+  width:90%;
+}
+
+.rjob-card:hover .rjob-arrow-wrapper {
+  
+  border-radius: 50%;
+  color: rgb(106, 99, 244);
+}
+
+.rjob-openings {
+  display: flex;
+}
+
+.rjob-header {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+.rjob-arrow-wrapper {
+  display: inline-block;
+}
+.job-logo{
+  width: 30px;
+  height:30px;
+  clip-path: circle();
+  background-color: white;
+  margin:1%;
+}
+.more-text:hover{
+  cursor: pointer;
+
+}

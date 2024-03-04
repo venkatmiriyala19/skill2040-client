@@ -1,0 +1,69 @@
+.coding-container {
+    margin:5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 28vw); /* Adjust the number of columns as needed */
+    gap: 1rem; 
+    column-gap: 2rem;
+    font-size: 1.2rem;
+  }
+  .coding-heading-container{
+    display: flex;
+    margin-left:10%;
+    margin-top:3%;
+    margin-bottom: 0;
+    border: 1px solid #ccc;
+    color:white;
+    background-color:rgb(27, 105, 35);
+    border-radius: 1rem;
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    justify-content: space-between;
+    width:75%
+  }
+  /* CSS */
+.button-47 {
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); */
+    /* box-sizing: border-box; */
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    height: 1rem;
+    justify-content: center;
+    /* line-height: 2rem; */
+    overflow-wrap: break-word;
+    padding: 1rem;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .color-this{
+    color: #ded961;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .coding-heading-container .heading{
+    font-size: 1.3rem;
+  }
+
+  .coding-heading-container span{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-left: 0.4rem;
+  }
+
+.coding-heading-container p{
+  letter-spacing: 0.15rem;
+  display: flex;
+  align-items: center;
+}
