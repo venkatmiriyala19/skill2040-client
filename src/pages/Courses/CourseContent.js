@@ -45,12 +45,11 @@ const CourseContent = () => {
       },
     });
 
-    // Stop confetti after 5 seconds (5000 milliseconds)
+    
     const confettiTimer = setTimeout(() => {
       setStopConfetti(true);
     }, 10000);
 
-    // Clear the timer when the component unmounts or when the effect runs again
     return () => clearTimeout(confettiTimer);
   };
 
@@ -141,7 +140,7 @@ const CourseContent = () => {
           <button
             className="mark-as-complete"
             onClick={handleMarkAsComplete}
-            disabled={isCompleted} // Optional: Disable the button after it's marked as completed
+            disabled={isCompleted} 
           >
             {isCompleted ? <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>Completed <FaCheckCircle style={{fontSize:'1.7rem',fontWeight:'800',marginLeft:'0.3rem'}}/> </div> : <div style={{display:'flex',alignItems:'center',justifyContent:'center'}}>Mark as Completed <FaRegCheckCircle style={{fontSize:'1.7rem',fontWeight:'800',marginLeft:'0.3rem'}}/> </div>}
           </button>
